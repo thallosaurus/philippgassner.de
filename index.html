@@ -1,31 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stand By...</title>
-    <style>a:visited {color: white;}a {text-decoration: none;}</style>
-    <script>window.addEventListener("load",e=>{fetch("key.css").then(e=>e.text()).then(e=>{d=atob(e),console.log(d);let t=d.replace("\r\n","\n");t=t.split("----\n");let l=0;setInterval(()=>{document.querySelector("#rickroll").innerText=t[l],++l==t.length-1&&(l=0)},100)})});</script>
-    </head>
-
-<body style="color: white; background-color: black;">
-
-    <div class="container" style="width: 100%; height: 100%; text-align: center;">
-
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <pre style="display: inline-block" id="rickroll"></pre>
-    </div>
-</a>
-
-    <p style="text-align: center; font-family: monospace">
-        Stand by as here is no real content right now.
-    </p>
-    <br>
-    <p style="text-align: center; font-family: monospace">
-    <!-- <p> -->
-        Contact: <a href="mailto:philipp@philippgassner.de">philipp@philippgassner.de</a>
-    </p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Vue + TS</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>

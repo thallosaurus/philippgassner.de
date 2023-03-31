@@ -1,0 +1,174 @@
+li[data-icon='docker']:hover:not(.nohover) {
+    background-color: rgb(74, 148, 230, 1);
+    margin-block-start: 0px;
+}
+
+li[data-icon='docker']:not(.nohover) {
+    background-color: rgb(74, 148, 230, 0.5);
+}
+
+li[data-icon='docker']::before {
+    background-image: url('assets/techs/docker.svg');
+}
+
+li[data-icon='typescript']:hover:not(.nohover) {
+    background-color: rgba(53, 120, 197, 1);
+}
+
+li[data-icon='typescript']:not(.nohover)  {
+    background-color: rgba(53, 120, 197, 0.5);
+}
+
+li[data-icon='typescript']::before {
+    background-image: url('assets/techs/typescript.png');
+}
+
+li[data-icon='swift']:hover:not(.nohover) {
+    background-color: rgba(232, 72, 53, 1);
+}
+
+li[data-icon='swift']:not(.nohover)  {
+    background-color: rgba(232, 72, 53, 0.5);
+}
+
+li[data-icon='swift']::before {
+    background-image: url('assets/techs/swift.svg');
+}
+
+li[data-icon='swiftui']:hover:not(.nohover) {
+    background-color: rgba(33, 67, 203, 1);
+}
+
+li[data-icon='swiftui']:not(.nohover)  {
+    background-color: rgba(33, 67, 203, 0.5);
+}
+
+li[data-icon='swiftui']::before {
+    background-image: url('assets/techs/swiftui.png');
+}
+
+li[data-icon='sqlite']:hover:not(.nohover) {
+    background-color: rgba(77, 146, 207, 1);
+}
+
+li[data-icon='sqlite']:not(.nohover)  {
+    background-color: rgba(77, 146, 207, 0.5);
+}
+
+li[data-icon='sqlite']::before {
+    background-image: url('assets/techs/sqlite.png');
+}
+
+li[data-icon='nodejs']:hover:not(.nohover) {
+    background-color: rgba(133, 177, 107, 1);
+}
+
+li[data-icon='nodejs']:not(.nohover) {
+    background-color: rgba(133, 177, 107, 0.5);
+}
+
+li[data-icon='nodejs']::before {
+    background-image: url('assets/techs/nodejs.svg');
+}
+
+li[data-icon='mysql']:hover:not(.nohover) {
+    background-color: rgba(33, 82, 105, 1);
+}
+
+li[data-icon='mysql']:not(.nohover) {
+    background-color: rgba(33, 82, 105, 0.5);
+}
+
+li[data-icon='mysql']::before {
+    background-image: url('assets/techs/mysql.svg');
+}
+
+li[data-icon="php"]:hover:not(.nohover) {
+    background-color: rgba(121, 124, 176, 1);
+}
+
+li[data-icon="php"]:not(.nohover)  {
+    background-color: rgba(121, 124, 176, 0.5);
+}
+
+li[data-icon='php']::before {
+    background-image: url('assets/techs/php.svg');
+}
+
+li[data-icon='java']:hover:not(.nohover) {
+    background-color: rgba(212, 57, 49, 1);
+}
+
+li[data-icon='java']:not(.nohover)  {
+    background-color: rgba(212, 57, 49, 0.5);
+}
+
+li[data-icon='java']::before {
+    background-image: url('assets/techs/java.svg');
+}
+
+li[data-icon='javascript']:hover:not(.nohover) {
+    background-color: rgb(213, 186, 75, 1);
+    /* color: black; */
+}
+
+li[data-icon='javascript']:not(.nohover)  {
+    background-color: rgb(213, 186, 75, 0.5);
+    /* color: black; */
+}
+
+li[data-icon='javascript']::before {
+    background-image: url('assets/techs/javascript.svg');
+}
+
+li[data-icon='archlinux']:hover:not(.nohover) {
+    background-color: rgb(69, 145, 204, 1);
+}
+
+li[data-icon='archlinux']:not(.nohover)  {
+    background-color: rgb(69, 145, 204, 0.5);
+}
+
+li[data-icon='archlinux']::before {
+    background-image: url('assets/techs/arch.png');
+}
+
+li[data-icon='arduino']:hover:not(.nohover) {
+    background-color: rgb(71, 154, 161, 1);
+}
+
+li[data-icon='arduino']:not(.nohover)  {
+    background-color: rgb(71, 154, 161, 0.5);
+}
+
+li[data-icon='arduino']::before {
+    background-image: url('assets/techs/arduino.svg');
+}
+
+li[data-icon='github']::before {
+    background-image: url('../img/github.svg');
+}
+
+li[data-icon='html5']:hover:not(.nohover) {
+    background-color: rgba(209, 87, 54, 1);
+}
+
+li[data-icon='html5']:not(.nohover)  {
+    background-color: rgba(209, 87, 54, 0.5);
+}
+
+li[data-icon='html5']::before {
+    background-image: url('assets/techs/html5.png');
+}
+
+li[data-icon='css3']:hover:not(.nohover) {
+    background-color: rgba(48, 76, 219, 1);
+}
+
+li[data-icon='css3']:not(.nohover)  {
+    background-color: rgba(48, 76, 219, 0.5);
+}
+
+li[data-icon='css3']::before {
+    background-image: url('assets/techs/css3.svg');
+}
