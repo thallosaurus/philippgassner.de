@@ -20,7 +20,7 @@
             <li data-icon="typescript">
                 <span class="title">TypeScript</span>
                 <p>Since: 2020</p>
-                <p>Familiarity: 1.2/3</p>
+                <p>Familiarity: 2.5/3</p>
             </li>
             <li data-icon="swift">
                 <span class="title">Swift</span>
