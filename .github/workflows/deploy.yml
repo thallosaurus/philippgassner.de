@@ -26,7 +26,7 @@ jobs:
         run: npm run build
 
       - name: List built directory
-        run: ls dist
+        run: find dist
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
